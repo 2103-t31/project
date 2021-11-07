@@ -1,0 +1,10 @@
+insert into Belongsto (productID, categoryID) values (1, 1);
+insert into Belongsto (productID, categoryID) values (2, 1);
+insert into Belongsto (productID, categoryID) values (3, 2);
+insert into Belongsto (productID, categoryID) values (4, 2);
+insert into Belongsto (productID, categoryID) values (5, 3);
+insert into Belongsto (productID, categoryID) values (6, 4);
+insert into Belongsto (productID, categoryID) values (7, 4);
+insert into Belongsto (productID, categoryID) values (8, 4);
+insert into Belongsto (productID, categoryID) values (9, 5);
+insert into Belongsto (productID, categoryID) values (10, 5);
