@@ -1,3 +1,9 @@
+DROP DATABASE IF EXISTS team31_bbfa;
+
+CREATE DATABASE team31_bbfa;
+
+USE team31_bbfa;
+
 CREATE TABLE Customer(
 	custID char(20) NOT NULL,
 	firstName char(20),
