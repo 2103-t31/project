@@ -29,3 +29,18 @@ rm bbfa-db.db
 python db.py
 
 ```
+
+# NoSQL portion
+
+# Start MongoDB locally
+```bash
+# cd to your local MongoDB server (C:\Program Files\MongoDB\Server\5.0\bin)
+cd $(PATH)
+# Start local mongoDB server
+mongod
+```
+
+# Can use MongoCompass to view your db and collections
+`Open MongoDB Compass -> Fill in connection fields individualy -> follow image -> connect`
+![Test Image 1](images/mongodb.png)
+
