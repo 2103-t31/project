@@ -53,7 +53,21 @@ cd individual-scripts
 python extractShoppingCart.py
 ```
 
-# view the collection
+# View the collection
 ![view Image 1](images/viewdata1.png)
 ![view Image 2](images/viewdata2.png)
 ![view Image 3](images/viewdata3.png)
+
+# Connect to Mongo Server programmatically to do CRUD (python)
+```
+# imports
+from pymongo import MongoClient
+# connect to local mongodb
+connection_string = "mongodb://localhost:27017/bbfa-team31"
+client = MongoClient(connection_string)
+db = client.get_database("bbfa-team31")
+collection = db.get_collection("shoppingCarts")
+# mongoDb queries
+collection.insert_many()
+collection.find()
+```
