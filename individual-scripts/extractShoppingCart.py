@@ -91,5 +91,5 @@ db = client.get_database("bbfa-team31")
 collection = db.get_collection("shoppingCarts")
 
 x = collection.insert_many(rich_documents)
-print(x.inserted_ids)
+#print(x.inserted_ids)
 

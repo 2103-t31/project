@@ -40,7 +40,20 @@ cd $(PATH)
 mongod
 ```
 
-# Can use MongoCompass to view your db and collections
+# Connect to MongoDB server using MongoDB Compass
 `Open MongoDB Compass -> Fill in connection fields individualy -> follow image -> connect`
-![Test Image 1](images/mongodb.png)
 
+![Test Image 1](images/mongodb.png)
+![Test Image 2](images/mongodb1.png)
+
+# Insert data
+```
+# make sure you have pymongo library install, pip install pymongo
+cd individual-scripts
+python extractShoppingCart.py
+```
+
+# view the collection
+![view Image 1](images/viewdata1.png)
+![view Image 2](images/viewdata2.png)
+![view Image 3](images/viewdata3.png)
