@@ -50,7 +50,7 @@ mongod
 ```
 # make sure you have pymongo library install, pip install pymongo
 cd individual-scripts
-python extractShoppingCart.py
+python insertCatnPord.py
 ```
 
 # View the collection
