@@ -26,14 +26,13 @@ app.layout = html.Div(
         html.Div(id="sqlite_datatable"),
         html.H1("Products", style={"textAlign": "center"}),
         html.Button("Add Row", id="editing-rows-button", n_clicks=0),
-        html.Button("Export to Excel", id="save_to_csv", n_clicks=0),
         html.Button("Save to SQLite", id="save_to_sqlite", n_clicks=0),
         # Create notification when saving to excel
         html.Div(id="placeholder", children=[]),
         dcc.Store(id="store", data=0),
         dcc.Interval(id="interval", interval=1000),
         dcc.Graph(id="my_graph"),
-        html.H1("Top Selling products", style={"textAlign": "center"}),
+        html.H1("Top Selling Products", style={"textAlign": "center"}),
         dcc.Graph(id="top-selling-graph"),
     ]
 )
